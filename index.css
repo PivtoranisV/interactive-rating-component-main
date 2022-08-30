@@ -1,8 +1,43 @@
-    .attribution {
-        font-size: 11px;
-        text-align: center;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
-    .attribution a {
-        color: hsl(228, 45%, 44%);
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+button {
+    font-family: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.rating,
+.thank-you {
+    background-color: hsl(213, 19%, 18%);
+    padding: 1.5rem;
+    border-radius: 12px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
