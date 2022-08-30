@@ -33,6 +33,53 @@ ul {
     border-radius: 12px;
 }
 
+.rating__img {
+    background-color: hsl(213, 18%, 30%);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.rating__h1,
+.thank-you__h1 {
+    color: hsl(0, 0%, 100%);
+    margin: 1.5rem 0;
+
+}
+
+.thank-you__text,
+.rating__text {
+    color: hsl(217, 12%, 63%);
+    line-height: 1.8rem;
+}
+
+.btn_numbers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2.5rem 0 1.8rem 0;
+}
+
+.btn_number {
+    background-color: hsl(213, 18%, 30%);
+    color: hsl(0, 0%, 100%);
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn_number:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.btn_number:focus {
+    background-color: hsl(217, 12%, 63%);
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
