@@ -50,6 +50,7 @@ ul {
 .rating__text {
     color: hsl(217, 12%, 63%);
     line-height: 1.8rem;
+    max-width: 400px;
 }
 
 .btn_numbers {
